@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+header { 
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+header img {
+    width: 100px ;
+ 
+}
+header ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        font-size: larger;
+        font-family: "DM Serif Display", serif; 
+        align-items: center;
+}
+
+
+header ul li {
+    margin: 10px;
+
+}
+/* Estructura de edicion, 1- poner el elemento que se desea mofificar, y añadir entre corchetes las especificaciones */
+img {
+    width: 150px;
+}
+
+h1 {
+    font-family: "DM Serif Display", sans-serif;
+    color: #1C4C96;
+    text-align: center;
+}
+h2 {
+    font-family: "DM Serif Display", sans-serif;
+    color: #fff; 
+    text-align: center;
+ }
+
+h3 {
+    font-family: "DM Serif Display", sans-serif;
+ }
+
+p {
+    font-family: "Nunito Sans", sans-serif;
+    color: black;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.container-fluid { 
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px; 
+}
+
+.cajita {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10 px;
+    padding: 20px;
+    text-align: justify;
+    
+}
+
+.cajita img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+#Recursos 
+{
+    /* aqui añades las cosas que quieras editar de  esta seccion */
+    font-size: medium;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    background-color: #81638B;
+    color: #fff;
+
+}
+
+/* SECCION NUESTROS OBJETIVOS*/
+
+.objetivos {
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    background-color: #81638B;
+    color: #fff;
+
+}
+.col-md-4 {
+    background-color: #CADEFC;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+
+
+}
+
+.col-md-3 {
+    background-color: #C3BEF0;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.btn-primary {
+    background-color: #CADEFC ;
+    color: #1C4C96; 
+    border: none;
+    border-radius: 10%;
+}
+
+.iframe-container {
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    height: 400px; /* Ajusta la altura según sea necesario */
+    position: relative;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* Ajusta el ancho del iframe según sea necesario */
+    height: 90%; /* Ajusta la altura del iframe según sea necesario */
+}
+
+#recursos  {
+    position: absolute;
+    width: 80%; /* Ajusta el ancho del iframe según sea necesario */
+    height: 300px; /* Ajusta la altura del iframe según sea necesario */ 
+}
+
+
+#hero-carousel {
+    padding: 50px;
+}
+ 
+
+  /* SECCION FOOTER*/
+  footer {
+    min-height: 500px;
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  }
+  
+  .footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+  }
+  
+  .footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: "DM Serif Display", sans-serif;
+  }
+  
+  .iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales i {
+    color: #000;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales a:hover {
+    background-color: #1C4C96;
+    border: 2px solid rgb(13, 110, 253);
+  }
+  
+  .iconos-redes-sociales a:hover i {
+    color: black;
+  }
+  
+  .derechos-de-autor {
+    font-size: 15px;
+    color: #000000;
+    padding: 20px;
+  }
+
+  .no-underline {
+    text-decoration: none;
+    color: #1C4C96;
+  }
